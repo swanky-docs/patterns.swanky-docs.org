@@ -1,0 +1,60 @@
+{
+  "viewports": [
+    {
+      "name": "phone",
+      "width": 320,
+      "height": 480
+    },
+    {
+      "name": "tablet_v",
+      "width": 568,
+      "height": 1024
+    },
+    {
+      "name": "tablet_h",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "name": "desktop_s",
+      "width": 1401,
+      "height": 768
+    },
+    {
+      "name": "desktop_l",
+      "width": 1801,
+      "height": 768
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "Swanky Angular Components",
+      "url": "http://localhost:3000/components/cards.html",
+      "hideSelectors": [],
+      "removeSelectors": [],
+      "selectors": [
+        ".component-example-cardComponent",
+        ".component-example-cardHeader"
+      ],
+      "readyEvent": null,
+      "delay": 500,
+      "misMatchThreshold": 0.1,
+      "onBeforeScript": "onBefore.js",
+      "onReadyScript": "onReady.js"
+    }
+  ],
+  "paths": {
+    "bitmaps_reference": "../../src/backstop_data/bitmaps_reference",
+    "bitmaps_test": "../../src/backstop_data/bitmaps_test",
+    "compare_data": "../../src/backstop_data/bitmaps_test/compare.json",
+    "casper_scripts": "../../src/backstop_data/casper_scripts"
+  },
+  "engine": "phantomjs",
+  "report": [
+    "browser",
+    "CLI"
+  ],
+  "casperFlags": [],
+  "debug": false,
+  "port": 3002
+}

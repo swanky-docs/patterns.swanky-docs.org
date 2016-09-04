@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "description": "Swanky Documentation",
+  "scripts": {
+    "start": "NODE_ENV=development node src/config/start/serve.dev.js",
+    "prebuild": "rimraf docs/",
+    "build": "npm run build:prod",
+    "build:serve": "npm-run-all build serve:prod",
+    "build:prod": "NODE_ENV=production webpack -p --progress --config src/config/build/build.prod.js --profile --colors",
+    "serve:prod": "http-server docs -o",
+    "generate-reference:css": "cd node_modules/backstopjs && npm run reference -- --configPath=../../src/backstop.json",
+    "test:css": "cd node_modules/backstopjs && npm run test -- --configPath=../../src/backstop.json"
+  },
+  "dependencies": {
+    "prismjs": "1.5.0",
+    "angular": "^1.5.6"
+  },
+  "devDependencies": {
+    "http-server": "0.9.0",
+    "npm-run-all": "2.1.2",
+    "rimraf": "2.5.2",
+    "swanky-server": "2.1.0",
+    "webpack": "2.1.0-beta.21",
+    "swanky-processor-ngdocs": "2.0.0",
+    "backstopjs": "1.3.5"
+  }
+}
