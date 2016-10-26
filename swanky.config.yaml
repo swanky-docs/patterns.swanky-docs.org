@@ -22,7 +22,7 @@ sections:
     subSections:
       - title: Cards
         bootstrap:
-          - src: src/config/bootstrap/angular.bootstrap.js
+          - src/config/bootstrap/angular.bootstrap.js
         content:
           - src: src/content/components/card/card-overview.md
           - title: <strong>1.1</strong> Card Component
