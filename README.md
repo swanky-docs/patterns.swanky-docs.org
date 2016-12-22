@@ -1,3 +1,5 @@
+<img src="./img/swanky-docs-logo.png" width="80" height="90" />
+
 # patterns.swanky-docs.org
 
 This site is built with [swanky](https://github.com/swanky-docs/swanky/). Site content is written in Markdown. Pull requests welcome!
