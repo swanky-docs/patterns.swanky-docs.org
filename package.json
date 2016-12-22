@@ -24,7 +24,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:swanky-docs/demo.git",
+    "url": "git@github.com:swanky-docs/patterns.swanky-docs.org.git",
     "type": "git"
   },
   "author": "Rod Leviton <rod@rodlevtion.com>",
