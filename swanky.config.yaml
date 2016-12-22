@@ -1,10 +1,10 @@
-title: demo
-repo: https://github.com/swanky-docs/generator-swanky
-version: 0.0.0
+title: Patterns Demo
+repo: https://github.com/swanky-docs/swanky
+version: 1.0.0
 src: src
-theme: src/themes/demo-theme
 output: docs
-serverPath: demo
+theme: src/themes/demo-theme
+snippets: src/snippets
 sections:
   - title: Foundation
     content:
