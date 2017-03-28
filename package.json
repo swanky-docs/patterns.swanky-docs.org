@@ -1,6 +1,18 @@
 {
   "name": "swanky-docs-patterns",
   "description": "Swanky Docs Patterns Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:swanky-docs/patterns.swanky-docs.org.git",
+    "type": "git"
+  },
+  "author": "Rod Leviton <rod@rodlevtion.com>",
+  "contributors": [
+    "Rod Leviton <rod@rodleviton.com>",
+    "Brett Uglow <u_glow@hotmail.com>"
+  ],
+  "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development node src/config/start/serve.dev.js",
     "prebuild": "rimraf docs/",
@@ -11,22 +23,19 @@
   },
   "dependencies": {
     "angular": "^1.5.6",
-    "prismjs": "1.6.0"
+    "moment": "2.15.1",
+    "prismjs": "1.6.0",
+    "react": "15.4.2",
+    "react-addons-shallow-compare": "15.4.2",
+    "react-dates": "8.2.1",
+    "react-dom": "15.4.2"
   },
   "devDependencies": {
     "http-server": "0.9.0",
     "npm-run-all": "3.1.2",
     "rimraf": "2.5.4",
-    "swanky": "2.0.2",
-    "swanky-processor-ngdocs": "2.2.3",
-    "webpack": "^2.2.0-rc"
-  },
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": {
-    "url": "git@github.com:swanky-docs/patterns.swanky-docs.org.git",
-    "type": "git"
-  },
-  "author": "Rod Leviton <rod@rodlevtion.com>",
-  "license": "MIT"
+    "swanky": "2.6.0",
+    "swanky-processor-ngdocs": "2.3.0",
+    "webpack": "^2.2.0"
+  }
 }

@@ -35,3 +35,11 @@ sections:
               swanky-processor-ngdocs: {}
           - title: 1.3 Card Accessibility
             src: src/content/components/card/card-accessibility.md
+      - title: DatePicker
+        bootstrap:
+          - src/config/bootstrap/react.bootstrap.js
+        content:
+          - title: DatePicker component
+            src: src/content/react-components/datepicker/datepicker.jsx
+            preprocessor:
+              swanky-processor-ngdocs: {}
