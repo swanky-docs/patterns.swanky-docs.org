@@ -14,4 +14,3 @@ const modules = requireAll(modulesToRequire);
 const moduleNameMap = modules.reduce((acc, mod) => Object.assign(acc, {[mod.default]: mod}), {});
 
 ngDocsBootstrap(moduleNameMap);
-

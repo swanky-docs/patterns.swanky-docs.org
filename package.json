@@ -35,7 +35,7 @@
     "npm-run-all": "3.1.2",
     "rimraf": "2.5.4",
     "swanky": "2.6.0",
-    "swanky-processor-ngdocs": "2.3.0",
+    "swanky-processor-ngdocs": "2.3.1",
     "webpack": "^2.2.0"
   }
 }
