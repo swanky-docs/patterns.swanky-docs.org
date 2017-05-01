@@ -3,7 +3,7 @@
 _gh_pages
 node_modules
 npm-debug.log
-docs
+build
 temp
 tmp
 vendor

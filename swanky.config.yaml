@@ -2,7 +2,7 @@ title: Swanky Docs - Patterns Demo
 repo: https://github.com/swanky-docs/swanky
 version: 1.0.0
 src: src
-output: docs
+output: build
 theme: src/themes/demo-theme
 snippets: src/snippets
 sections:
