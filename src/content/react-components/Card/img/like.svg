@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>like</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="like" fill-rule="nonzero">
+            <g id="Group">
+                <circle id="Oval" fill="#000000" cx="19" cy="19" r="19"></circle>
+                <path d="M25.125,19.36 L19.5,26.02 L13.875,19.334 C13.202,18.407 12.937,17.781 12.937,16.924 C12.937,15.324 14.087,13.884 15.75,13.872 C17.117,13.862 18.667,15.245 19.5,16.289 C20.31,15.281 21.883,13.871 23.25,13.871 C24.868,13.871 26.063,15.323 26.063,16.921 C26.063,17.781 25.853,18.451 25.125,19.361 L25.125,19.36 Z M23.25,13 C21.688,13 20.505,13.91 19.5,14.86 C18.542,13.85 17.312,13 15.75,13 C13.55,13 12,14.877 12,16.923 C12,18.021 12.453,18.811 12.95,19.553 L18.778,26.485 C19.432,27.172 19.555,27.172 20.208,26.485 L26.05,19.555 C26.634,18.811 27,18.021 27,16.923 C27,14.877 25.45,13 23.25,13 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

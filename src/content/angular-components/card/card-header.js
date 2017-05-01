@@ -1,7 +1,7 @@
 import styles from './styles/card-header.styl'
 
 /**
- * @ngdoc directive
+ * @kind directive
  *
  * @name swanky.components.card:cardHeader
  *

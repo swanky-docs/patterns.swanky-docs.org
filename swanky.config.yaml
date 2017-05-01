@@ -17,29 +17,37 @@ sections:
         src: src/content/foundation/04-grid.md
       - title: 04 Units
         src: src/content/foundation/05-units.md
-  - title: Components
-    content: src/content/components/overview.md
-    subSections:
-      - title: Cards
-        bootstrap:
-          - src/config/bootstrap/angular.bootstrap.js
-        content:
-          - src: src/content/components/card/card-overview.md
-          - title: <strong>1.1</strong> Card Component
-            src: src/content/angular-components/card/card.js
-            preprocessor:
-              swanky-processor-ngdocs: {}
-          - title: <strong>1.2</strong> Card Header
-            src: src/content/angular-components/card/card-header.js
-            preprocessor:
-              swanky-processor-ngdocs: {}
-          - title: 1.3 Card Accessibility
-            src: src/content/components/card/card-accessibility.md
-      - title: DatePicker
-        bootstrap:
-          - src/config/bootstrap/react.bootstrap.js
-        content:
-          - title: DatePicker component
-            src: src/content/react-components/datepicker/datepicker.jsx
-            preprocessor:
-              swanky-processor-ngdocs: {}
+
+  - title: Angular
+    bootstrap:
+      - src/config/bootstrap/angular.bootstrap.js
+    content:
+      - src: src/content/angular-components/docs/card-overview.md
+      - title: <strong>1.1</strong> Card Component
+        src: src/content/angular-components/card/card.js
+        preprocessor:
+          swanky-processor-jsdoc:
+            framework: angular
+            liveEdit: true
+      - title: <strong>1.2</strong> Card Header
+        src: src/content/angular-components/card/card-header.js
+        preprocessor:
+          swanky-processor-jsdoc:
+            framework: angular
+            liveEdit: true
+      - title: 1.3 Card Accessibility
+        src: src/content/angular-components/docs/card-accessibility.md
+
+  - title: React
+    bootstrap:
+      - src/config/bootstrap/react.bootstrap.js
+    content:
+      - src: src/content/react-components/docs/card-overview.md
+      - title: <strong>1.1</strong> Card Component
+        src: src/content/react-components/Card/index.js
+        preprocessor:
+          swanky-processor-jsdoc:
+            framework: react
+            liveEdit: true
+      - title: 1.3 Card Accessibility
+        src: src/content/react-components/docs/card-accessibility.md

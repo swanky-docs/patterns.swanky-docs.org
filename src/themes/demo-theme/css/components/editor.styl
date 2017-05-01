@@ -1,0 +1,37 @@
+:global {
+  .CodeMirror {
+    color: #666;
+    line-height: 1.45;
+    background-color: $alabaster;
+    font-family: 'Fira Mono', monospace;
+    overflow: hidden;
+    border: 1px solid $border-colour;
+    border-radius: $border-radius;
+    margin-bottom: 4rem;
+  }
+
+  .CodeMirror-gutters {
+    background: darken($alabaster, 2%);
+    border: none;
+  }
+
+  .CodeMirror-guttermarker, .CodeMirror-guttermarker-subtle, .CodeMirror-linenumber {
+    color: #999;
+  }
+
+  .CodeMirror-cursor {
+    border-left: 1px solid #000;
+  }
+
+  .CodeMirror pre {
+    padding: 0 12px;
+  }
+
+  .CodeMirror-sizer {
+    padding: 10px 0px 0px;
+  }
+
+  .cm-s-swanky .cm-string { color: $bittersweet; }
+  .cm-s-swanky .cm-attribute { color: $scooter; }
+  .cm-s-swanky .cm-tag { color: $scooter; }
+}

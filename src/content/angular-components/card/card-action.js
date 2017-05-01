@@ -1,6 +1,6 @@
 import styles from './styles/card-action.styl'
 /**
- * @ngdoc directive
+ * @kind directive
  *
  * @name swanky.components.card:cardAction
  *
