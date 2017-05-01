@@ -1,4 +1,3 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const devServer = require('swanky').devServer;
 
 // Start swanky dev server
@@ -18,17 +17,5 @@ module.exports = devServer({
         }
       }]
     }
-    // {
-    //   test: /\/src\/content\/react-components\/Card\/Card.css$/,
-    //   use: ExtractTextPlugin.extract({
-    //     fallback: 'style-loader',
-    //     use: 'css-loader?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]'
-    //   })
-    // }
-    // {
-    //   test: /\.css$/,
-    //   exclude: /node_modules/,
-    //   loader: 'style-loader!css-loader?importLoaders=1&modules&localIdentName=[name]__[local]___[hash:base64:5]'
-    // }
   ]
 });

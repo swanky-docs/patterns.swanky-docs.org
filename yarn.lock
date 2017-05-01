@@ -4979,9 +4979,9 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-swanky-processor-jsdoc@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/swanky-processor-jsdoc/-/swanky-processor-jsdoc-1.1.1.tgz#d6329dfbaf54f87e011c80417a6337aefa926c44"
+swanky-processor-jsdoc@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/swanky-processor-jsdoc/-/swanky-processor-jsdoc-1.1.2.tgz#ce554308dd866335b1d252b91a043ead7ae1a9bf"
   dependencies:
     babel-standalone "6.23.1"
     codemirror "5.25.0"
