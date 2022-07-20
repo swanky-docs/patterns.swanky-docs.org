@@ -21,7 +21,7 @@
     "serve:prod": "http-server docs -o"
   },
   "dependencies": {
-    "angular": "^1.6.4",
+    "angular": "^1.8.3",
     "highlightjs": "9.10.0",
     "node-uuid": "^1.4.8",
     "prop-types": "^15.5.8",
